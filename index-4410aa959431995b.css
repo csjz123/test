@@ -1,0 +1,97 @@
+html {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: rgb(231, 236, 231);
+	text-align: center;
+}
+#time {
+	font-size: 100px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'dsdigi' 'Lucida Sans', Arial, sans-serif;
+	color: rgb(72, 195, 154);
+	text-align: center;
+}
+#date {
+	font-size: 16px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+	color: rgb(72, 195, 154);
+	text-align: center;
+	margin-bottom: 16px;
+}
+#search {
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	border-radius: 1.7rem;
+	border: 2px rgb(0, 162, 255) solid;
+}
+#searchers_icon {
+	margin-left: 8px;
+	margin-top: 2px;
+	width: 30px;
+	height: 30px;
+}
+#search_bar {
+	position: relative;
+	width: 100%;
+	padding-left: 8px;
+	float: left;
+	background-color: rgba(0, 0, 0, 0%);
+	border: 0;
+}
+#search_bar:focus {
+	outline: none;
+}
+#search_button {
+	padding-top: 4px;
+	margin-right: 4px;
+	width: 30px;
+	height: 30px;
+}
+#search_button:hover {
+	cursor: pointer;
+}
+#circle1 {
+	width: 16px;
+	height: 16px;
+	border: orange solid 2px;
+	border-radius: 50%;
+	position: relative;
+}
+#circle2 {
+	width: 10px;
+	height: 2px;
+	position: relative;
+	left: 16px;
+	background-color: orange;
+	rotate: 45deg;
+}
+
+#searchers {
+	width: 80%;
+	height: 0px;
+	border-radius: 1.7rem;
+	overflow: hidden;
+	transition-property: height, background;
+	transition-duration: 1s, 1s;
+	background: wheat;
+	margin: 0 auto;
+	margin-top: 8px;
+	display: flex;
+	padding-left: 16px;
+}
+#searchers_click {
+	width: 80%;
+	height: 36px;
+	border-radius: 1.7rem;
+	overflow: hidden;
+	transition-property: height, background;
+	transition-duration: 1s, 1s;
+	background: wheat;
+	margin: 0 auto;
+	margin-top: 8px;
+	display: flex;
+	padding-left: 16px;
+}
